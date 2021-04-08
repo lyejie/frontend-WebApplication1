@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplication1",
+    "\\WebApplication1\\ClientApp",
+    "\\WebApplication1\\ClientApp\\src",
+    "\\WebApplication1\\ClientApp\\src\\app",
+    "\\WebApplication1\\ClientApp\\src\\app\\counter",
+    "\\WebApplication1\\ClientApp\\src\\app\\home",
+    "\\WebApplication1\\Controllers",
+    "\\WebApplication1\\Properties"
+  ],
+  "SelectedNode": "\\WebApplication1\\ClientApp\\src\\app\\counter\\counter.component.html",
+  "PreviewInSolutionExplorer": false
+}

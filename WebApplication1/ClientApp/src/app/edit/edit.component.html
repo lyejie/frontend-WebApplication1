@@ -1,0 +1,49 @@
+<h2>EDIT INFORMATION</h2>
+<br />
+<!--<div class="container py-5">
+  <h3 class="text-center">List of Employees</h3>
+  <table class="table table-bordered table-striped">
+      <thead>
+        <tr class="text-center text-uppercase">
+          <th>Employee Name</th>
+          <th>Employee Email</th>
+          <th>Employee Password</th>
+          <th>Employee HP Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let emp of employees">
+          <td>{{emp.employeeName}}</td>
+          <td>{{emp.employeeEmail}}</td>
+          <td>{{emp.employeePassword}}</td>
+          <td>{{emp.employeeHP}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn btn-primary" style="margin-top: 30px; margin-right: 15px;" (click)="mainpage()">Edit</button>
+    <button class="btn btn-primary" style="margin-top: 30px;">Save</button>-->
+<!--</div>-->
+<form #form="ngForm" (ngSubmit)="submit(form)">
+  <div class="container" style="text-align: left;display: block;margin-left: auto;margin-right: auto;">
+    <table>
+      <tr>
+        <td colspan="1">EmployeeName</td>
+        <td colspan="1"><input class="form-control" placeholder="name" ngModel #name="ngModel" name="name"></td>
+      </tr>
+      <tr>
+        <td colspan="1" style="padding-top: 15px; padding-right: 15px;">EmployeeEmail</td>
+        <td colspan="1"><input class="form-control" placeholder="email" ngModel #email="ngModel" name="email"></td>
+      </tr>
+      <tr>
+        <td colspan="1" style="padding-top: 15px; padding-right: 15px;">EmployeePassword</td>
+        <td colspan="1"><input class="form-control" placeholder="password" ngModel #password="ngModel" name="password"></td>
+      </tr>
+      <tr>
+        <td colspan="1" style="padding-top: 15px; padding-right: 15px;">EmployeeHP</td>
+        <td colspan="1"><input class="form-control" placeholder="hp number" ngModel #hpnumber="ngModel" name="hpnumber"></td>
+      </tr>
+    </table>
+    <button class="btn btn-primary" style="margin-top: 30px; margin-right: 15px;" (click)="mainpage()">Cancel</button>
+    <button class="btn btn-primary" style="margin-top: 30px;">Save</button>
+  </div>
+</form>
